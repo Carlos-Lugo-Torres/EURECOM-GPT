@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 248.933,
+    "vectorized_ms": 1.054,
+    "speedup": 236.18
+  },
+  "threads": {
+    "1": 2293.979,
+    "2": 2055.42,
+    "4": 2445.775,
+    "8": 2333.623
+  },
+  "devices": {
+    "cpu_ms": 423622.7,
+    "gpu_ms": 14054.8
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4991,
+    "param_count": 4935680
+  },
+  "sample": "\nYes tallosand fair the confeminable it.\n\nGLOUCESTER:\nWhat but death, if but little put by comisition,\nThe contrup and natitence conces; I\nAnd thoughb'd them times of his grave and etiYe,\nAnd then love",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecomgpt-512908-eurecomgpt/model.safetensors"
+  }
+}
